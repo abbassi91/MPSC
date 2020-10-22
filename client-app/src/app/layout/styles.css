@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(250, 250, 250) !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(
+    135deg,
+    rgb(24, 42, 115) 0%,
+    rgb(33, 138, 174) 69%,
+    rgb(32, 167, 172) 89%
+  ) !important;
+}
+
+/*home page styles*/
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+          135deg,
+          rgb(24, 42, 115) 0%,
+          rgb(33, 138, 174) 69%,
+          rgb(32, 167, 172) 89%
+  ) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+
+
+/*end home page styles*/
+
+.ui.card {
+  margin: 0em 0;
+  top: 0em;
+  margin: auto;
+  width: 100% !important;
+}
+
+@media screen and (min-width: 400px) {
+
+
+}
+
+
+
+
+.ui.ribbon.label {
+    left: calc(0rem - 1.2em);
+}
+
+.ui.items:first-child {
+  margin-top: 1em!important;
+  margin-bottom: 0.5em;
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment 
+{
+  background-image: linear-gradient(
+    402deg,
+    rgb(24, 42, 115) 0%,
+    rgb(33, 138, 174) 69%,
+    rgb(32, 167, 172) 89%
+) ;
+}
+
+.ui.secondary.inverted.pointing.menu
+{
+  border-width: 0;
+}
+
+.ui.inverted.vertical.ui.overlay.sidebar
+{
+  
+  background-image: linear-gradient(
+    135deg,
+    rgb(24, 42, 115) 0%,
+    rgb(33, 138, 174) 69%,
+    rgb(0, 168, 173) 89%
+) ;
+}
+
+
+
+.accordion.ui.fluid.styled.navMenu
+{
+  background: none;
+  border-radius: 0rem;
+  color: rgb(255 255 255 / 87%)!important;
+  
+}
+
+/*
+.accordion.ui.fluid .styled
+{
+background: none;
+border-radius: 0rem;
+}
+
+.ui.accordion .title:not(.ui) {
+  padding: .5em 0;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 1em;
+  color: rgb(255 255 255 / 87%)!important;
+}
+
+.ui.styled.accordion .accordion .content, .ui.styled.accordion .content 
+{
+  padding: 0.1em ;
+}*/
+
+.title#id{color: whitesmoke;}
